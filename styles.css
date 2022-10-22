@@ -1,0 +1,30 @@
+:root{
+    --primary-color: rgb(14,55,69);
+    --secondary-color: rgb(66,50,44);
+
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--primary-color);
+}
+header{
+    padding: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--primary-color);
+}
+.search{
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    border-radius: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color: white;
+    padding: 0.5rem 1 rem;
+}
+.search::placeholder{}
